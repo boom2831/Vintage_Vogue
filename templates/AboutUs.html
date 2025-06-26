@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vintage Vogue - Rent your favourite car</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="{{ url_for('static', filename='images/logo5-.png') }}" alt="Vintage logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="/Explore_car" class="navbar-link" data-nav-link>Explore cars</a>
+          </li>
+
+          <li>
+            <a href="/AboutUs" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li>
+            <a href="/Blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+          
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:080 12345678" class="contact-link">080 12345678</a>
+
+          <span class="contact-time">Mon - Sat: 9:00 am - 7:00 pm</span>
+        </div>
+
+        <a href="/Explore_car" class="btn" aria-labelledby="aria-label-txt">
+          <ion-icon name="car-outline"></ion-icon>
+
+          <span id="aria-label-txt">Explore cars</span>
+        </a>
+
+        <a href="/Signin" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <div class="hero-banner"></div>
+    <section class="AboutUs">
+      <br><br>
+    <h1>About Vintage Vogue Car Rental</h1><br><br>
+<p>   </p>
+<p>    </p>
+    <p>Welcome to Vintage Vogue Car Rental, where classic elegance meets<br>
+       modern convenience. At Vintage Vogue, we take pride in providing a<br>
+       unique and unforgettable experience for our clients through our <br>
+       carefully curated collection of vintage and luxury cars.</p><br>
+
+       <p>Our journey began with a passion for timeless automobiles and a<br>
+    commitment to delivering exceptional service. Whether you're<br>
+    planning a special event, a scenic road trip, or simply desire<br>
+    to indulge in the luxury of a bygone era, Vintage Vogue has the<br>
+    perfect vehicle for every occasion.</p><br>
+
+    <p>What sets us apart is not just the remarkable cars in our fleet but also<br>
+    our dedication to customer satisfaction. Our team of experienced <br>
+    professionalsis here to ensure that your car rental experience is<br>
+    seamless, enjoyable, and tailored to your specific needs.</p><br>
+
+    <p>Explore our website to discover our stunning collection, ranging from <br> 
+    iconic vintage models to sleek modern classics. Vintage Vogue Car Rental<br>
+    is more than just a transportation service; it's a celebration of style,<br>
+    sophistication, and the joy of the open road.</p><br>
+
+    <p>Thank you for considering Vintage Vogue Car Rental for your automotive<br>
+    needs. We look forward to being a part of your special moments and<br> 
+    creating memories that last a lifetime.</p><br>
+
+    <p>Sincerely,<br> The Vintage Vogue Team</p>
+  </section>
+  </main>
+
+
+
+
+
+ 
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="{{ url_for('static', filename='images/logo5-.png') }}" alt=" logo">
+          </a>
+
+          <p class="footer-text">
+            Search for cheap rental cars in Bangalore. With a diverse fleet of 19,000 vehicles, Vintage Vogue offers its
+            consumers an
+            attractive and fun selection.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="/AboutUs" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="/Blog" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ask a question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Neighborhoods in Bangalore</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Rajajinagar</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vijayanagar</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kormangala</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Whitefield</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Malleshwaram</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Richmond Town</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Frazer Twon</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Residency Town</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2023 <a href="#"></a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
